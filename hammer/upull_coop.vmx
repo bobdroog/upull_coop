@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6945"
-	"mapversion" "129"
+	"mapversion" "132"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "129"
+	"mapversion" "132"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2248,8 +2248,7 @@ world
 		}
 		editor
 		{
-			"color" "175 144 0"
-			"groupid" "8692"
+			"color" "0 203 204"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2491,7 +2490,7 @@ world
 		side
 		{
 			"id" "2370"
-			"plane" "(1984 -2096 -448) (1984 -1888 -448) (1986 -1888 -448)"
+			"plane" "(1984 -2072 -473) (1984 -1911 -473) (1986 -1911 -473)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -2.66659] 0.03"
 			"vaxis" "[0 1 0 -11.6452] 0.31"
@@ -2502,7 +2501,7 @@ world
 		side
 		{
 			"id" "2369"
-			"plane" "(1984 -1888 -576) (1984 -2096 -576) (1986 -2096 -576)"
+			"plane" "(1984 -1911 -569) (1984 -2072 -569) (1986 -2072 -569)"
 			"material" "MAPS/METAL/ROADBARRIER01B"
 			"uaxis" "[1 0 0 445.323] 0.03"
 			"vaxis" "[0 1 0 12.9032] 0.31"
@@ -2513,10 +2512,10 @@ world
 		side
 		{
 			"id" "2368"
-			"plane" "(1984 -2096 -576) (1984 -1888 -576) (1984 -1888 -448)"
+			"plane" "(1984 -2072 -569) (1984 -1911 -569) (1984 -1911 -473)"
 			"material" "MAPS/METAL/ROADBARRIER01B"
 			"uaxis" "[0 -1 0 -25] 0.31"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2524,10 +2523,10 @@ world
 		side
 		{
 			"id" "2367"
-			"plane" "(1986 -1888 -576) (1986 -2096 -576) (1986 -2096 -448)"
+			"plane" "(1986 -1911 -569) (1986 -2072 -569) (1986 -2072 -473)"
 			"material" "MAPS/METAL/ROADBARRIER01B"
 			"uaxis" "[0 -1 0 -25] 0.31"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2535,10 +2534,10 @@ world
 		side
 		{
 			"id" "2366"
-			"plane" "(1986 -2096 -576) (1984 -2096 -576) (1984 -2096 -448)"
+			"plane" "(1986 -2072 -569) (1984 -2072 -569) (1984 -2072 -473)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 59.1613] 0.31"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2546,10 +2545,10 @@ world
 		side
 		{
 			"id" "2365"
-			"plane" "(1984 -1888 -576) (1986 -1888 -576) (1986 -1888 -448)"
+			"plane" "(1984 -1911 -569) (1986 -1911 -569) (1986 -1911 -473)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -25] 0.33"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6313,7 +6312,7 @@ world
 		side
 		{
 			"id" "744"
-			"plane" "(-318 -1734 -569) (-318 -822 -569) (-141.812 -822 -569)"
+			"plane" "(-316 -1734 -569) (-316 -822 -569) (-144 -822 -569)"
 			"material" "CINCY/MAPS/TERRAIN/TELL_BLEND_SAND2ROAD"
 			"uaxis" "[1 0 0 -136] 0.25"
 			"vaxis" "[0 -1 0 1000] 0.25"
@@ -6324,7 +6323,7 @@ world
 		side
 		{
 			"id" "743"
-			"plane" "(-318 -822 -584) (-318 -1734 -584) (-141.812 -1734 -584)"
+			"plane" "(-316 -822 -584) (-316 -1734 -584) (-144 -1734 -584)"
 			"material" "CINCY/MAPS/TERRAIN/TELL_BLEND_SAND2ROAD"
 			"uaxis" "[1 0 0 -136] 0.25"
 			"vaxis" "[0 -1 0 1000] 0.25"
@@ -6335,7 +6334,7 @@ world
 		side
 		{
 			"id" "742"
-			"plane" "(-318 -1734 -584) (-318 -822 -584) (-318 -822 -569)"
+			"plane" "(-316 -1734 -584) (-316 -822 -584) (-316 -822 -569)"
 			"material" "CINCY/MAPS/TERRAIN/TELL_BLEND_SAND2ROAD"
 			"uaxis" "[0 1 0 -1000] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -6346,7 +6345,7 @@ world
 		side
 		{
 			"id" "741"
-			"plane" "(-141.812 -822 -584) (-141.812 -1734 -584) (-141.812 -1734 -569)"
+			"plane" "(-144 -822 -584) (-144 -1734 -584) (-144 -1734 -569)"
 			"material" "CINCY/MAPS/TERRAIN/TELL_BLEND_SAND2ROAD"
 			"uaxis" "[0 1 0 -1000] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -6357,7 +6356,7 @@ world
 		side
 		{
 			"id" "740"
-			"plane" "(-318 -822 -584) (-141.812 -822 -584) (-141.812 -822 -569)"
+			"plane" "(-316 -822 -584) (-144 -822 -584) (-144 -822 -569)"
 			"material" "CINCY/MAPS/TERRAIN/TELL_BLEND_SAND2ROAD"
 			"uaxis" "[1 0 0 -136] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -6368,7 +6367,7 @@ world
 		side
 		{
 			"id" "739"
-			"plane" "(-141.812 -1734 -584) (-318 -1734 -584) (-318 -1734 -569)"
+			"plane" "(-144 -1734 -584) (-316 -1734 -584) (-316 -1734 -569)"
 			"material" "CINCY/MAPS/TERRAIN/TELL_BLEND_SAND2ROAD"
 			"uaxis" "[1 0 0 -136] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -10242,16 +10241,6 @@ world
 	}
 	group
 	{
-		"id" "8692"
-		editor
-		{
-			"color" "175 144 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "8698"
 		editor
 		{
@@ -10571,13 +10560,15 @@ entity
 	"dmg" "0"
 	"drawinfastreflection" "0"
 	"forceclosed" "0"
-	"hardware" "1"
+	"hardware" "2"
 	"health" "0"
 	"model" "models/siege/prop_storedoor_128_96_door.mdl"
 	"opendir" "0"
 	"returndelay" "-1"
 	"shadowdepthnocache" "0"
 	"skin" "0"
+	"soundcloseoverride" "physics/doors/metaldoors/metal_door_03_close.wav"
+	"soundopenoverride" "physics/doors/metaldoors/metal_door_03_open.wav"
 	"spawnflags" "8192"
 	"spawnpos" "0"
 	"speed" "100"
@@ -10604,13 +10595,15 @@ entity
 	"dmg" "0"
 	"drawinfastreflection" "0"
 	"forceclosed" "0"
-	"hardware" "1"
+	"hardware" "2"
 	"health" "0"
 	"model" "models/siege/prop_storedoor_128_96_door.mdl"
 	"opendir" "0"
 	"returndelay" "-1"
 	"shadowdepthnocache" "0"
 	"skin" "0"
+	"soundcloseoverride" "physics/doors/metaldoors/metal_door_03_close.wav"
+	"soundopenoverride" "physics/doors/metaldoors/metal_door_03_open.wav"
 	"spawnflags" "8192"
 	"spawnpos" "0"
 	"speed" "100"
@@ -10993,7 +10986,7 @@ entity
 {
 	"id" "8694"
 	"classname" "prop_static"
-	"angles" "0 180 0"
+	"angles" "0 172 0"
 	"disableflashlight" "0"
 	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
@@ -11016,11 +11009,10 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1032 -1766 -544"
+	"origin" "1068 -1753 -544"
 	editor
 	{
-		"color" "175 144 0"
-		"groupid" "8692"
+		"color" "0 229 194"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8268]"
@@ -15081,8 +15073,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[20.6022 -1041.27 -443.881]"
-		"look" "[17.634 -633.806 -524.56]"
+		"position" "[907.528 -1927.49 -468.747]"
+		"look" "[1149.54 -1598.98 -546.579]"
 	}
 }
 cordons
