@@ -1346,3 +1346,138 @@ Level flags = 4
 Total triangle count: 2560
 Writing c:\users\bob\documents\github\upull_coop\hammer\upull_coop.bsp
 15 seconds elapsed
+
+
+
+materialPath: G:\Steam\steamapps\common\insurgency2\insurgency\materials
+Loading C:\Users\Bob\Documents\GitHub\upull_coop\hammer\upull_coop.vmf
+Map revision 153
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/upull_coop/cincy/maps/terrain/tell_blend_sand2road_wvt_patch
+Patching WVT material: maps/upull_coop/maps/concrete/concrete_dirt_blend_wvt_patch
+Patching WVT material: maps/upull_coop/maps/mogadishu/mog_blend_sand_01d_wet_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Bob\Documents\GitHub\upull_coop\hammer\upull_coop.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57848 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 462 texinfos to 235
+Reduced 27 texdatas to 23 (793 bytes to 668)
+Writing C:\Users\Bob\Documents\GitHub\upull_coop\hammer\upull_coop.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\bob\documents\github\upull_coop\hammer\upull_coop.bsp
+reading c:\users\bob\documents\github\upull_coop\hammer\upull_coop.prt
+ 253 portalclusters
+ 661 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 38437
+Average clusters visible: 151
+Building PAS...
+Average clusters audible: 252
+visdatasize:18149  compressed from 16192
+writing c:\users\bob\documents\github\upull_coop\hammer\upull_coop.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[4 texlights parsed from 'lights.rad']
+
+Loading c:\users\bob\documents\github\upull_coop\hammer\upull_coop.bsp
+1079 faces
+959259 square feet [138133360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1079 patches before subdivision
+33257 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 873872, max 485
+transfer lists:   6.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25607, 21305, 16979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2804, 2248, 1523)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(562, 471, 289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(180, 146, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(67, 50, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(30, 21, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0083 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                166/8192         1992/98304    ( 2.0%) 
+brushsides            1003/65536        8024/524288   ( 1.5%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes              1674/65536       20088/786432   ( 2.6%) 
+nodes                  621/65536       19872/2097152  ( 0.9%) 
+texinfos               235/12288       16920/884736   ( 1.9%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1079/65536       60424/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+facebrushes             76/0             152/0        ( 0.0%) 
+facebrushlists        1079/0            4316/0        ( 0.0%) 
+leaves                 633/65536       20256/2097152  ( 1.0%) 
+leaffaces             1236/65536        2472/131072   ( 1.9%) 
+leafbrushes            428/65536         856/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             6279/512000      25116/2048000  ( 1.2%) 
+edges                 3507/256000      14028/1024000  ( 1.4%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             61/32768         610/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1107/65536        2214/131072   ( 1.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2944993/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18149/16777216 ( 0.1%) 
+entdata               [variable]       26814/393216   ( 6.8%) 
+LDR ambient table      633/65536        2532/262144   ( 1.0%) 
+HDR ambient table      633/65536        2532/262144   ( 1.0%) 
+LDR leaf ambient      3323/65536       93044/1835008  ( 5.1%) 
+HDR leaf ambient       633/65536       17724/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9202     ( 0.0%) 
+pakfile               [variable]       76033/0        ( 0.0%) 
+physics               [variable]       57848/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 4
+
+Total triangle count: 2633
+Writing c:\users\bob\documents\github\upull_coop\hammer\upull_coop.bsp
+15 seconds elapsed
