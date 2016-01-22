@@ -12889,7 +12889,7 @@ entity
 	"origin" "-284 -925 -544"
 	editor
 	{
-		"color" "0 204 137"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8268]"
